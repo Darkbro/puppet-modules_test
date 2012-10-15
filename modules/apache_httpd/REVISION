@@ -1,0 +1,4 @@
+module: thias/apache_httpd
+version: 0.3.2
+url: file:///var/lib/puppet/puppet-module/cache/http_forge_puppetlabs_com-75a31f1d6f1ef6eb63b4479b3512ee1508209a7f/thias-apache_httpd-0.3.2.tar.gz
+installed: Mon Oct 15 10:11:02 +0800 2012

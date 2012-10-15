@@ -5,8 +5,8 @@ class nginx::install {
     }
    user { "nginx":
      ensure => present,
-#     comment => "MySQL user",
-     gid => "mysql",
+#     comment => "Nginx user",
+     gid => "nginx",
      require => Group["nginx"],
     }
    group { "nginx":

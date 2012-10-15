@@ -1,0 +1,38 @@
+{
+  "project_page": "http://glee.thias.es/puppet",
+  "checksums": {
+    "README": "d310c1c52405e9ef12f4db29d187569a",
+    "LICENSE": "e4678a02ee34a6b96bab29aa0169a5ce",
+    "ChangeLog": "1ce1a4c768f0602f790e255317049c6e",
+    "templates/etc/logrotate.erb": "bb8b878298e9bc42d658c050ea614516",
+    "templates/conf/httpd.conf.erb": "06574c167a4ccef6a329657d62564c5f",
+    "templates/conf/httpd.conf.orig": "27a5c8d9e75351b08b8ca1171e8a0bbd",
+    "templates/conf.d/ssl.conf": "187df1d47d7ac4ab6b2abb9624949d9b",
+    "files/proxy_ajp.conf.orig": "8b0da169a5f7963b6bf28f9d8de7785f",
+    "tests/init.pp": "1caed8c1310cb3eda308ddf7b42dcf9f",
+    "manifests/service/base.pp": "2279d654b21e3bf07fad3019ea1e5169",
+    "files/trace.inc": "00b0ef3384ae0ae23641de16a4f409c2",
+    "files/proxy_ajp.conf": "c7d462c30779b0270a141984ad70e70c",
+    "tests/file.pp": "38daaf7e1111e92962e10e00a5303851",
+    "Modulefile": "0bb6af524da4ebd3667e29cc826a96a4",
+    "manifests/file.pp": "8f8a71da792997d0afb1166f5203aa80",
+    "manifests/init.pp": "3d20c1dd615f5deaf472d05d2566bb8f",
+    "files/welcome.conf": "127e668bbf50be1ec582418b1b47e5bd",
+    "templates/etc/sysconfig.erb": "5b583701fc60079d1c5737a9b4192f32",
+    "templates/conf.d/ssl.conf.orig": "41f59421026a473a0378c58d539069c6",
+    "manifests/service/ssl.pp": "bccb811431ae834e4e063c417e0b1e38"
+  },
+  "license": "Apache 2.0",
+  "source": "git://github.com/thias/puppet-modules/modules/apache_httpd",
+  "dependencies": [
+
+  ],
+  "description": "Install and enable the Apache httpd web server and manage its\n    configuration with snippets.",
+  "summary": "Apache HTTP Daemon installation and configuration",
+  "name": "thias-apache_httpd",
+  "types": [
+
+  ],
+  "author": "Matthias Saou",
+  "version": "0.3.2"
+}
